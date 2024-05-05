@@ -35,9 +35,9 @@ Improve the following codes to implement SOLID principles in OOP.
       public void sendEmailNotification(String email) {
         // Simulate sending email notification
         System.out.println("Email notification sent to: " + email);
+      }
     }
-  }
-
+  
     public class OrderTest {
       public static void main(String[] args) {
         solidPrinciples.PlaceOrder order = new OrderAction();
