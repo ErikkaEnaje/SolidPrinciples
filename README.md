@@ -1,9 +1,8 @@
 # PROBLEM STATEMENT
 Improve the following codes to implement SOLID principles in OOP.
   
-  
-public interface solidPrinciples.PlaceOrder {
-  
+    public interface solidPrinciples.PlaceOrder {
+    
     void calculateTotal(double price, int quantity);
   
     void placeOrder(String customerName, String address);
@@ -11,10 +10,9 @@ public interface solidPrinciples.PlaceOrder {
     void generateInvoice(String fileName);
   
     void sendEmailNotification(String email);
-  }
+    }
   
-  public class OrderAction implements solidPrinciples.PlaceOrder {
-  
+    public class OrderAction implements solidPrinciples.PlaceOrder {
     @Override
     public void calculateTotal(double price, int quantity) {
       double total = price * quantity;
@@ -39,9 +37,8 @@ public interface solidPrinciples.PlaceOrder {
       System.out.println("Email notification sent to: " + email);
     }
   }
-  
-  public class OrderTest {
-  
+
+    public class OrderTest {
     public static void main(String[] args) {
       solidPrinciples.PlaceOrder order = new OrderAction();
       order.calculateTotal(10.0, 2);
@@ -50,8 +47,9 @@ public interface solidPrinciples.PlaceOrder {
       // These methods might not be needed for all orders
       order.generateInvoice("order_123.pdf");
       order.sendEmailNotification("johndoe@example.com");
+      }
     }
-  }
+  
 
 # UML DIAGRAM
 - Solid Principles
