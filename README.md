@@ -53,3 +53,5 @@ Improve the following codes to implement SOLID principles in OOP.
 
 # UML DIAGRAM
 - Solid Principles
+  ![Blank diagram (5)](https://github.com/ErikkaEnaje/SolidPrinciples/assets/142382057/e64183af-020e-496b-a719-6a7915aee4ee)
+  
